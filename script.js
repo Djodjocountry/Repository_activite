@@ -1,5 +1,9 @@
-var test = true
+var test = prompt('Entrez un prénom:');
 if(test) {
 
-	alert('Hello World');
+	alert('Hello' + test);
+} else {
+
+	alert('Qu\'est ce qu\'on a dit");
+
 }
